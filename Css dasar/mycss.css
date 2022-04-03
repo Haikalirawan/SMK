@@ -1,0 +1,63 @@
+/*   
+Css styling
+***************
+Author = Warlock_
+Gmail : haikalirawan5@gmail.com
+*******************
+*/
+
+
+
+/* Contoh penggunaan word styling */
+h1 {
+	color: salmon;
+	/* Banyak warna yyang bisa dipakai silahkan kunjungi w3school */
+	text-transform: capitalize;
+	/* uppercase, lowercase, dan capitalize */
+	text-align: center;
+	/* left,right,center,justify */
+	text-indent: 50px;
+	/* digunakan untuk mengatur jarak antara kalimat dan awal paragraf */
+	text-decoration: underline;
+	/* underline, overline dan line-through */
+	letter-spacing:
+		/* digunakan untuk memberi spasi antar kata */
+		word-spacing:;
+	/* digunakan untuk memberi spasi antar kalimat */
+}
+
+/* Contoh penggunaan font styling */
+p {
+	font-family: arial, verdana, sans-serif;
+	/* arial, dan verdana adalah nama font, sedangkan sans-serif dan serif adalah generic family */
+	font-size: 15px;
+	/* digunakan untuk mengatur besar kecil sebuah font */
+	font-weight: bold;
+	/* digunakan untuk menebalkan sebuah font */
+	font-style: italic;
+	/* digunakan untuk memiringkan sebuah font  */
+	font-variant: small-caps;
+	/* membuat font menjadi capital */
+	line-height: 50px;
+	/* membuat enter antar paragraf */
+	font-synthesis:
+
+}
+
+/* Background Styling */
+body {
+	background-color: ;
+	/* mengatur warna background */
+	background-image: ;
+	/*  */
+	background-position: ;
+	/*  */
+	background-repeat: ;
+	/*  */
+	background-origin: ;
+	/* menentukan posisi gambar dari latar belakang,valuenya: padding-box,border-box, dan content-box; */
+	background-clip: ;
+	/* sama seperti background-origin, hanya ditambah satu value yaitu text -> selain bisa memberi warna juga dapat memberi backgorund di text kita */
+	background-attachment: ;
+	/* Mengatur apakah background mengikuti isi konten,valuenya: scroll dan fixed;  */
+}
