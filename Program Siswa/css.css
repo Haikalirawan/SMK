@@ -1,0 +1,155 @@
+body{
+  font-family: sans-serif;
+  background: #ffdb4d;
+}
+ 
+h1{
+  text-align: center;
+  /*ketebalan font*/
+  font-weight: 300;
+}
+ 
+.tulisan_login{
+  text-align: center;
+  /*membuat semua huruf menjadi kapital*/
+  text-transform: uppercase;
+  color: #009933;
+  font-weight: bold;
+}
+ 
+.kotak_login{
+  width: 350px;
+  background: white;
+  /*meletakkan form ke tengah*/
+  margin: 80px auto;
+  padding: 30px 20px;
+}
+ 
+label{
+  font-size: 11pt;
+}
+ 
+.form_login{
+  /*membuat lebar form penuh*/
+  box-sizing : border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+ 
+.tombol_login{
+  background: #009933;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+ 
+.tombol_login:hover{
+  background: white;
+  color: #009933;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.link{
+  color: #232323;
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+.label{
+  font-weight: bold;
+}
+
+p a{
+  color: #0000ff;
+}
+
+p a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #009933;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.tambah_data{
+  background: #009933;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-weight: bold;
+  position: relative;
+  bottom: 12px; 
+}
+ 
+.tambah_data:hover{
+  background: #009933;
+  text-decoration: none;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+h2{
+  color: #009933;
+  margin: 30px 0;
+  padding: 0 200px 15px 0;
+}
+.bs-example{
+  margin: 20px;
+}
+.form-horizontal{
+  padding-top: 50px;
+}
